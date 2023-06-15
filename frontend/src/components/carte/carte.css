@@ -1,0 +1,31 @@
+.map-container {
+    height: calc(100vh - 120px); /* adjust 120px to match the combined height of Navbar and Footer */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+.map{
+  height: 100vh;
+  width: 100%;
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .map{
+    margin-top: 30%; /* Adjust the value according to your needs */
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .map {
+    margin-top: 9%; /* Adjust the value according to your needs */
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .map {
+    margin-top: 4%;
+  }
+}

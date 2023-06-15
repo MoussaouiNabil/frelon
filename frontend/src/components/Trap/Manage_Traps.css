@@ -1,0 +1,26 @@
+.App{
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .App {
+    margin-top: 30%; /* Adjust the value according to your needs */
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .App {
+    margin-top: 15%; /* Adjust the value according to your needs */
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .App{
+    margin-top: 7%;
+  }
+}
+
