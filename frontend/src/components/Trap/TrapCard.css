@@ -1,0 +1,30 @@
+/*CSS traplist*/
+ul {
+  list-style-type: none;
+  display: flex;  /* pour afficher la liste horizontalement */
+  justify-content: center;  /* pour centrer la liste horizontalement */
+}
+
+li {
+  margin: 0 10px;  /* pour ajouter de l'espace entre les éléments de la liste */
+}
+
+.trap-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: solid
+}
+
+.trap-table th, .trap-table td {
+  border: solid ;
+  padding: 8px;
+  text-align: left;
+}
+
+.trap-table th {
+  background-color: #ece911;
+  color: black;
+  border : solid black;
+}
+
+
