@@ -1,9 +1,16 @@
 const express = require("express");
-const userCtrl = require("../controllers/user");
 const router = express.Router();
+const userCtrl = require("../controllers/user");
+ 
+// Route pour l'inscription
+router.post("/sign-up", userCtrl.signup);
 
-router.post("/login", userCtrl.login);
-router.post("/signup", userCtrl.signup);
-router.get("/:id", userCtrl.getUsrName);
+//console.log(userCtrl);
+
+// Route pour la connexion
+router.post("/sign-in", userCtrl.login);
+
+// Route pour la déconnexion
+router.post("/:id", userCtrl.getUsrName);
 
 module.exports = router;
